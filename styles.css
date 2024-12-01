@@ -1,0 +1,134 @@
+/* تنسيق عام */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url(img/إدارة-المشاريع-1.jpg);
+    background-repeat: no-repeat ;
+    background-size:100% 100% ;
+}
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    margin-left: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 2rem;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Landing Section */
+
+#landing{
+    text-align: center;
+    padding: 2rem;
+    background: #008cba;
+    color: #0a0a0a;
+}
+
+#landing button {
+    background: #edf2f3;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#instructor{
+    text-align: center;
+}
+#instructor p{
+    padding: 0px 300px;
+    font-size: 18px;
+}
+#register h2{
+    text-align: center;
+}
+#curriculum h1{
+    text-align: center;
+    color: #080808;
+}
+
+/* Cards Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    opacity: 80%;
+}
+
+/* Form Section */
+form {
+    background: #fff;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 50%;
+    border-radius: 8px;
+    
+}
+/* تسمية النموذج*/
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+/* تنسيقات لوحة التسجيل ولوحة التواصل */
+form input, form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+/* زر الارسال */
+form button {
+    background: #333;
+    color: #fff;
+    
+}
+
+/* Footer */
+/* الشريط السفلي */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* روابط السوشل ميديا */
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+}
